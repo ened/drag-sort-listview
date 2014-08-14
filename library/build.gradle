@@ -24,6 +24,9 @@ android {
 			res.srcDirs = ['res']
 		}
 	}
+  lintOptions {
+    abortOnError false
+  }
 }
 
 // TODO: Add a task that prints the test results.
